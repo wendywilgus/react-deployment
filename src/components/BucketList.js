@@ -9,6 +9,9 @@ function BucketList() {
   const addBucketItem = (item) => {
 
     // TODO: Write logic to add the new bucket item to the bucket state variable
+    if (!item.text) {
+      return;
+    }
     
   };
 
